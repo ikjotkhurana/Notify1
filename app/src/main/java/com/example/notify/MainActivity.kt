@@ -21,10 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         //onclick add notes button
 
-        addNotes.setOnLongClickListener {
+        addNotes.setOnClickListener {
 
-            startActivity(Intent(this,AddNotesActivity::class.java))
-            finish()
+            val intent = Intent(this, AddNotesActivity::class.java)
+            startActivity(intent)
+
         }
     }
 }
