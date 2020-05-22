@@ -25,7 +25,9 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this,AddNotesActivity::class.java))
             finish()
-
         }
     }
 }
+
+
+//Test push by advait to check access.
