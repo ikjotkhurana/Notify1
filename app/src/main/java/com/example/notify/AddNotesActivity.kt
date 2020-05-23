@@ -35,6 +35,7 @@ class AddNotesActivity : AppCompatActivity() {
 
 
 
+
     }
 
     private fun addNotesTODB() {
